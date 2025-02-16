@@ -1,5 +1,24 @@
 import { Announcement } from "@/types/types";
 
+// announcementsにデータを追加することでお知らせを追加できる
+// 1行だけ入れたい場合の例
+// {
+//   title: <p>掲載情報を第62回に更新しました</p>,
+//   date: "2024-03-08",
+// },
+// リンクを含めたいときの例
+// {
+//   title: (
+//     <p>
+//       <a href="./sinkan/" target="_blank" aria-label="新歓">
+//         新歓のページ
+//       </a>
+//       を公開しました
+//     </p>
+//   ),
+//   date: "2024-03-08",
+// },
+
 export const announcements: Announcement[] = [
   {
     title: (

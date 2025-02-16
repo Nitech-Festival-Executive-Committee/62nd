@@ -64,7 +64,7 @@ export const seiyu: ProjectData = {
             <br />
             「女神のカフェテラス」月島流星役など多数のアニメ、ゲームで活躍する声優
           </p>
-          <ContentImage img="/62nd/project/seiyu/seiyu.webp" alt="山根綺" />
+          <ContentImage src="/62nd/project/seiyu/seiyu.webp" alt="山根綺" />
         </>
       ),
     },

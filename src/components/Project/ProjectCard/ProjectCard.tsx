@@ -10,6 +10,7 @@ import { ProjectData } from "@/types/projectInterface";
 import Image from "next/image";
 import styles from "./ProjectCard.module.scss";
 import { convertScheduleToSummaryReactNode } from "@/utils/converter";
+import { NITFES_EDITION_ENG } from "@/const/const";
 
 interface ProjectCardProps {
   projectList: ProjectData[];
@@ -47,16 +48,16 @@ export default function ProjectCard({
             >
               <CardCover>
                 <Image
-                  src={`/62nd/project/${project.link}/brochure.webp`}
+                  src={`/${NITFES_EDITION_ENG}/project/${project.link}/brochure.webp`}
                   alt={project.name}
                   onError={(e) => {
                     const target = e.currentTarget;
                     if (target.src.includes("brochure.webp")) {
                       // brochure.webpがエラーの場合、logoBrochure.webpに切り替え
-                      target.src = `/62nd/project/${project.link}/logoBrochure.webp`;
+                      target.src = `/${NITFES_EDITION_ENG}/project/${project.link}/logoBrochure.webp`;
                     } else if (target.src.includes("logoBrochure.webp")) {
                       // logoBrochure.webpがエラーの場合、最終的にnoImage.webpに切り替え
-                      target.src = `/62nd/project/noImage.webp`;
+                      target.src = `/${NITFES_EDITION_ENG}/project/noImage.webp`;
                     }
                   }}
                   width={180}

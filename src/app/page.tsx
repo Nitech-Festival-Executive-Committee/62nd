@@ -121,7 +121,7 @@ export default function Top() {
             <p>
               <a href="./project">企画一覧はこちらから</a>
             </p>
-            <ContentImage img="/62nd/img/map.webp" alt="エリア" />
+            <ContentImage src="/62nd/img/map.webp" alt="エリア" />
           </ContentBox>
           <ContentBox title={"駐車場はありますか?"}>
             <p>

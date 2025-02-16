@@ -1,6 +1,7 @@
 import { createDate } from "@/utils/date";
 
 export const NITFES_EDITION = 62 as const;
+export const NITFES_EDITION_ENG = "62nd" as const;
 export const NITFES_YEAR = 2024 as const;
 export const NITFES_MONTH = 11 as const;
 export const NITFES_DATE1 = 16 as const;

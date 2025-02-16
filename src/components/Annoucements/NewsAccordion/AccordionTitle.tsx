@@ -3,6 +3,7 @@ import { ListItemText, Typography } from "@mui/material";
 import styles from "./NewsAccordion.module.scss";
 import React from "react";
 
+// アナウンスの
 export default function AccordionTitle({
   title,
   date,
@@ -32,7 +33,9 @@ export default function AccordionTitle({
         return React.cloneElement(
           child as React.ReactElement<React.HTMLAttributes<HTMLElement>>,
           {
-            children: addOnClickToLinks(child.props.children),
+            children: addOnClickToLinks(
+              (child.props as { children?: React.ReactNode }).children
+            ),
           }
         );
       }

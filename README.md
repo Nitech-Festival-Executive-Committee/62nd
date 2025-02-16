@@ -8,6 +8,7 @@
   ```
   npm run dev
   ```
+  (`run dev`に`npm i`を追加してあるので、これに関連するエラーが少なくなるようにしてある)
 - ビルド後の状態を確認したい場合
   初回のみ
   ```
@@ -15,13 +16,12 @@
   ```  
   `/public`か`/src`に変更があれば
   ```
-  npx next build
+  npm run build
   ```
   でビルドした後
   ```
   http-server out
   ```
-
 
 ### フォーマット・ESLint
 - フォーマット  
@@ -59,6 +59,9 @@
 - [Staging - Build and Upload via SFTP](https://github.com/Nitech-Festival-Executive-Committee/koudaisai/actions/workflows/staging-deploy.yml)  
   ステージング環境へのデプロイ  
   `Deploy for test`とは異なり、ひとつのブランチに対してのみデプロイ可能
+- [Lint Check](https://github.com/Nitech-Festival-Executive-Committee/koudaisai/actions/workflows/lint-check.yml)
+  PRを作成・更新した時にエラーが無いか確認する
+  デプロイ前に確認できるので、公開前にエラーが無いか確認できる
 
 # トラブルシューティング
 - `Module not found: Can't resolve '...'`

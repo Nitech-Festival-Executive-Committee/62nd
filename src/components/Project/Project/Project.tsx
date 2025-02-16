@@ -9,6 +9,7 @@ import BrochureImage from "../BrochureImage/BrochureImage";
 import Animation from "@/components/Animation/Animation";
 import { ProjectData } from "@/types/projectInterface";
 import RecommendedProjects from "@/components/RecommendedProjects/RecommendedProjects";
+import { NITFES_EDITION_ENG } from "@/const/const";
 
 interface ProjectProps {
   projectData: ProjectData;
@@ -30,7 +31,7 @@ export default function Project({
       <ContentTitle title={projectData.name} size={projectTitleSize} bigTitle />
       {logoPath !== "" && (
         <ProjectLogo
-          img={`/62nd/project/${projectData.link}/${logoPath}`}
+          img={`/${NITFES_EDITION_ENG}/project/${projectData.link}/${logoPath}`}
           alt="Logo"
         />
       )}
@@ -46,7 +47,7 @@ export default function Project({
         <SectionBody>
           {brochurePath !== "" && (
             <BrochureImage
-              img={`/62nd/project/${projectData.link}/${brochurePath}`}
+              img={`/${NITFES_EDITION_ENG}/project/${projectData.link}/${brochurePath}`}
               alt="Brochure"
             />
           )}

@@ -31,6 +31,7 @@ const schedule = {
   },
 };
 
+// 長いとProjectCardではみ出る可能性がある
 const place = "2号館前ステージ";
 
 // 変数名を変更(ex. miniGame)
@@ -108,7 +109,7 @@ export const templateProject: ProjectData = {
       content: "",
     },
     {
-      title: "ほげ",
+      title: "左に表示されるよ",
       content: "ほげ",
       position: "left",
     },

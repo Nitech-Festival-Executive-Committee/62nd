@@ -72,7 +72,7 @@ export const zipFM: ProjectData = {
             <br />
             スピーカーから音楽が流れるよ!ぜひ聴いてみてね
           </p>
-          <ContentImage img="/62nd/project/zip-fm/speaker.webp" />
+          <ContentImage src="/62nd/project/zip-fm/speaker.webp" />
         </>
       ),
     },
