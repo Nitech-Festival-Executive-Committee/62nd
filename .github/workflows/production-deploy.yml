@@ -1,3 +1,5 @@
+# 本番環境へのデプロイ
+# rsync-exclude.txtに記述されているディレクトリはスキップ
 name: Production - Build and Upload via SFTP
 
 on:

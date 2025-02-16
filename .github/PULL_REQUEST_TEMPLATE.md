@@ -1,10 +1,7 @@
-<!-- PRをmergeしたら自動でissueをcloseしたい場) -->
-<!-- Closes [表示したい文字、issueタイトルがおすすめ](issueのURL) -->
+<!-- PRをmergeしたら自動でissueをcloseしたい場合 -->
+<!-- - Close #issue番号 -->
 
-<!-- PRにissueをリンクだけしたい場合(自動でcloseはしない) -->
-<!-- Related to [表示したい文字、issueタイトルがおすすめ](issueのURL) -->
-
-Closes []()
+- Close #
 
 ## 概要
 <!-- 変更内容を簡単に説明 -->

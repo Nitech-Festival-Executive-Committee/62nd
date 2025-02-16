@@ -1,3 +1,4 @@
+# fixupコミットが含まれていないか確認し、含まれている場合はマージをブロックする
 name: Block merging fixup commits
 
 on: [pull_request]
