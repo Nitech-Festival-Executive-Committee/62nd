@@ -1,3 +1,5 @@
+# テスト環境へのデプロイ
+# rsync-exclude.txtに記述されているディレクトリはスキップ
 name: Staging - Build and Upload via SFTP
 
 on:
