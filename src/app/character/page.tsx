@@ -3,7 +3,7 @@ import ContentImage from "@/components/Content/ContentImage/ContentImage";
 import ContentTitle from "@/components/Content/ContentTitle/ContentTitle";
 import PageWrapper from "@/components/Content/PageWrapper/PageWrapper";
 import SectionBody from "@/components/Content/SectionBody/SectionBody";
-import { NITFES_EDITION, NITFES_YEAR } from "@/const/const";
+import { NITFES_EDITION, NITFES_YEAR, NITFES_EDITION_ENG } from "@/const/const";
 import styles from "./page.module.scss";
 
 export const metadata = {
@@ -20,9 +20,9 @@ export default function Character() {
           <ContentTitle title="古墳マン" size={2} />
           <ContentBox title={"落単古墳マンとは?"}>
             <ContentImage
-              src="/62nd/character/img/kohunman1.webp"
+              src={`/${NITFES_EDITION_ENG}/character/img/kohunman1.webp`}
               decorated={false}
-            ></ContentImage>
+            />
             <p>
               工大祭の公式マスコットキャラクター「落単古墳マン」
               <br />
@@ -50,7 +50,9 @@ export default function Character() {
               名工大の一本松古墳に登ると落単するという噂から、「落単古墳マン」が誕生したよ!
               <br />
             </p>
-            <ContentImage src="/62nd/character/img/kohunman2.webp"></ContentImage>
+            <ContentImage
+              src={`/${NITFES_EDITION_ENG}/character/img/kohunman2.webp`}
+            />
             <ContentBox title={"自己紹介"}>
               <p>
                 僕は落単古墳マン!!
@@ -85,9 +87,9 @@ export default function Character() {
           <ContentTitle title="ハニワくん" size={2} />
           <ContentBox title={"ハニワくんとは?"}>
             <ContentImage
-              src="/62nd/character/img/haniwakun1.webp"
+              src={`/${NITFES_EDITION_ENG}/character/img/haniwakun1.webp`}
               decorated={false}
-            ></ContentImage>
+            />
             <p>工大祭の公式マスコットキャラクター「ハニワくん」</p>
           </ContentBox>
           <ContentBox title={"プロフィール"}>
@@ -106,16 +108,18 @@ export default function Character() {
               <br />
               ハニワくんはとても頭が良く、古墳マンに勉強も教えているが、「ハニハニ」しか話せないので、英語の授業だけ落単している。
             </p>
-            <ContentImage src="/62nd/character/img/haniwakun2.webp"></ContentImage>
+            <ContentImage
+              src={`/${NITFES_EDITION_ENG}/character/img/haniwakun2.webp`}
+            />
           </ContentBox>
         </SectionBody>
         <SectionBody>
           <ContentTitle title="たまごちゃん" size={2} />
           <ContentBox title={"2号館たまごちゃんとは?"}>
             <ContentImage
-              src="/62nd/character/img/tamagochan1.webp"
+              src={`/${NITFES_EDITION_ENG}/character/img/tamagochan1.webp`}
               decorated={false}
-            ></ContentImage>
+            />
             <p>
               工大祭の公式マスコットキャラクター「2号館たまごちゃん」
               <br />
@@ -134,7 +138,9 @@ export default function Character() {
               <br />
               身長7m。
             </p>
-            <ContentImage src="/62nd/character/img/tamagochan2.webp"></ContentImage>
+            <ContentImage
+              src={`/${NITFES_EDITION_ENG}/character/img/tamagochan2.webp`}
+            />
           </ContentBox>
 
           <ContentTitle title="LINEスタンプ" size={2} />
@@ -150,31 +156,31 @@ export default function Character() {
             <ContentBox title={"落単古墳マン"}>
               <div className={styles.lineStampStyle}>
                 <img
-                  src="/62nd/character/img/sticker1_1.webp"
+                  src={`/${NITFES_EDITION_ENG}/character/img/sticker1_1.webp`}
                   alt=""
                   className={styles.lineStampImageStyle}
                   loading="lazy"
                 />
                 <img
-                  src="/62nd/character/img/sticker1_2.webp"
+                  src={`/${NITFES_EDITION_ENG}/character/img/sticker1_2.webp`}
                   alt=""
                   className={styles.lineStampImageStyle}
                   loading="lazy"
                 />
                 <img
-                  src="/62nd/character/img/sticker1_3.webp"
+                  src={`/${NITFES_EDITION_ENG}/character/img/sticker1_3.webp`}
                   alt=""
                   className={styles.lineStampImageStyle}
                   loading="lazy"
                 />
                 <img
-                  src="/62nd/character/img/sticker1_4.webp"
+                  src={`/${NITFES_EDITION_ENG}/character/img/sticker1_4.webp`}
                   alt=""
                   className={styles.lineStampImageStyle}
                   loading="lazy"
                 />
                 <img
-                  src="/62nd/character/img/sticker1_5.webp"
+                  src={`/${NITFES_EDITION_ENG}/character/img/sticker1_5.webp`}
                   alt=""
                   className={styles.lineStampImageStyle}
                   loading="lazy"
@@ -192,31 +198,31 @@ export default function Character() {
             <ContentBox title={"落単古墳マン2"}>
               <div className={styles.lineStampStyle}>
                 <img
-                  src="/62nd/character/img/sticker2_1.webp"
+                  src={`/${NITFES_EDITION_ENG}/character/img/sticker2_1.webp`}
                   alt=""
                   className={styles.lineStampImageStyle}
                   loading="lazy"
                 />
                 <img
-                  src="/62nd/character/img/sticker2_2.webp"
+                  src={`/${NITFES_EDITION_ENG}/character/img/sticker2_2.webp`}
                   alt=""
                   className={styles.lineStampImageStyle}
                   loading="lazy"
                 />
                 <img
-                  src="/62nd/character/img/sticker2_3.webp"
+                  src={`/${NITFES_EDITION_ENG}/character/img/sticker2_3.webp`}
                   alt=""
                   className={styles.lineStampImageStyle}
                   loading="lazy"
                 />
                 <img
-                  src="/62nd/character/img/sticker2_4.webp"
+                  src={`/${NITFES_EDITION_ENG}/character/img/sticker2_4.webp`}
                   alt=""
                   className={styles.lineStampImageStyle}
                   loading="lazy"
                 />
                 <img
-                  src="/62nd/character/img/sticker2_5.webp"
+                  src={`/${NITFES_EDITION_ENG}/character/img/sticker2_5.webp`}
                   alt=""
                   className={styles.lineStampImageStyle}
                   loading="lazy"

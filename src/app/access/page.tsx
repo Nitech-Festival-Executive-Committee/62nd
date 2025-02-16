@@ -6,7 +6,7 @@ import PageWrapper from "@/components/Content/PageWrapper/PageWrapper";
 import SectionBody from "@/components/Content/SectionBody/SectionBody";
 import Underline from "@/components/Content/Underline/Underline";
 import Animation from "@/components/Animation/Animation";
-import { NITFES_EDITION, NITFES_YEAR } from "@/const/const";
+import { NITFES_EDITION, NITFES_EDITION_ENG, NITFES_YEAR } from "@/const/const";
 
 export const metadata = {
   title: `アクセス - 第${NITFES_EDITION}回工大祭`,
@@ -82,7 +82,11 @@ export default function Access() {
             <h4 style={{ fontWeight: "bold", fontSize: "1.5rem", margin: "0" }}>
               <Underline>鶴舞駅</Underline>
             </h4>
-            <img src="/62nd/access/img/train.webp" alt="" loading="lazy" />
+            <img
+              src={`/${NITFES_EDITION_ENG}/access/img/train.webp`}
+              alt=""
+              loading="lazy"
+            />
             <p style={{ textAlign: "right" }}>
               <a
                 href="https://maps.app.goo.gl/En9P1hgB1txHgNTz5"

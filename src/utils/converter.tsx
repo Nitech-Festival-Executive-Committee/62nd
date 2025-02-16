@@ -1,5 +1,5 @@
 import { SwiperCardProps } from "@/components/Swiper/SwiperCard/SwiperCard";
-import { NITFES_DATE_TEXT } from "@/const/const";
+import { NITFES_DATE_TEXT, NITFES_EDITION_ENG } from "@/const/const";
 import { ProjectData } from "@/types/projectInterface";
 import { Schedule } from "@/types/types";
 import { formatPeriod } from "@/utils/formatter";
@@ -55,7 +55,7 @@ export const convertProjectDataToSwiperCardProps = (
   const props: SwiperCardProps = {
     title: project.name,
     href: `/project/${project.link}/`,
-    imageUrl: `/62nd/project/${project.link}/brochure.webp`,
+    imageUrl: `/${NITFES_EDITION_ENG}/project/${project.link}/brochure.webp`,
     imageAlt: project.name,
     day1: project.schedule?.day1 !== undefined,
     day2: project.schedule?.day2 !== undefined,

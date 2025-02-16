@@ -13,6 +13,7 @@ import {
   NITFES_DAY1,
   NITFES_DAY2,
   NITFES_EDITION,
+  NITFES_EDITION_ENG,
   NITFES_MONTH,
   NITFES_THEME,
   NITFES_TIME_DATE1,
@@ -169,7 +170,9 @@ export default function About() {
           <ContentTitle title="活動内容" size={2} />
           <ContentBox title={"3月・4月"}>
             <p>新入生歓迎会</p>
-            <ContentImage src="/62nd/about/img/sinkan.webp"></ContentImage>
+            <ContentImage
+              src={`/${NITFES_EDITION_ENG}/about/img/sinkan.webp`}
+            />
           </ContentBox>
           <ContentBox title={"5月"}>
             <p>他大学祭当日ボランティア</p>
@@ -179,7 +182,9 @@ export default function About() {
           </ContentBox>
           <ContentBox title={"7月"}>
             <p>納涼祭り</p>
-            <ContentImage src="/62nd/about/img/nouryou.webp"></ContentImage>
+            <ContentImage
+              src={`/${NITFES_EDITION_ENG}/about/img/nouryou.webp`}
+            />
           </ContentBox>
           <ContentBox title={"8月"}>
             <p>備品制作</p>
@@ -192,7 +197,9 @@ export default function About() {
           </ContentBox>
           <ContentBox title={"10月"}>
             <p>秋祭り</p>
-            <ContentImage src="/62nd/about/img/akimaturi.webp"></ContentImage>
+            <ContentImage
+              src={`/${NITFES_EDITION_ENG}/about/img/akimaturi.webp`}
+            />
             <p>他大学祭当日ボランティア</p>
           </ContentBox>
           <ContentBox title={"11月"}>
@@ -200,8 +207,12 @@ export default function About() {
           </ContentBox>
           <ContentBox title={"11月中旬"}>
             <p>工大祭当日</p>
-            <ContentImage src="/62nd/about/img/koudaisai1.webp"></ContentImage>
-            <ContentImage src="/62nd/about/img/koudaisai2.webp"></ContentImage>
+            <ContentImage
+              src={`/${NITFES_EDITION_ENG}/about/img/koudaisai1.webp`}
+            />
+            <ContentImage
+              src={`/${NITFES_EDITION_ENG}/about/img/koudaisai2.webp`}
+            />
           </ContentBox>
         </SectionBody>
       </PageWrapper>
