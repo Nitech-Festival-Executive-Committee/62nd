@@ -57,8 +57,8 @@ const renderGuestList = (guestList: GuestInformation[]) => {
       </ContentBox>
       <ContentBox title={"団体紹介"}>
         <p>{guest.Description}</p>
-        {guest.img && <ContentImage img={guest.img} />}
-        {guest.img2 && <ContentImage img={guest.img2} />}
+        {guest.img && <ContentImage src={guest.img} />}
+        {guest.img2 && <ContentImage src={guest.img2} />}
       </ContentBox>
       <ContentBox title={"SNS"}>
         <p>{guest.link}</p>

@@ -2,7 +2,7 @@ import DecoratedImage from "../DecoratedImage/DecoratedImage";
 import styles from "./ContentImage.module.scss";
 
 interface ContentImageProps {
-  img: string;
+  src: string;
   alt?: string;
   style?: React.CSSProperties;
   className?: string;
@@ -10,7 +10,7 @@ interface ContentImageProps {
 }
 
 export default function ContentImage({
-  img,
+  src,
   alt,
   style,
   className,
@@ -19,9 +19,9 @@ export default function ContentImage({
   return (
     <div className={`${styles.contentImage} ${className}`} style={style}>
       {decorated ? (
-        <DecoratedImage img={img} alt={alt} />
+        <DecoratedImage src={src} alt={alt} />
       ) : (
-        <img src={img} alt={alt} loading="lazy" />
+        <img src={src} alt={alt} loading="lazy" />
       )}
     </div>
   );

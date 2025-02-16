@@ -1,14 +1,14 @@
 import styles from "./DecoratedImage.module.scss";
 
 interface DecoratedImageProps {
-  img: string;
+  src: string;
   alt?: string;
   style?: React.CSSProperties;
   className?: string;
 }
 
 export default function DecoratedImage({
-  img,
+  src,
   alt,
   style,
   className,
@@ -16,7 +16,7 @@ export default function DecoratedImage({
   return (
     <img
       className={`${styles.decoration} ${className}`}
-      src={img}
+      src={src}
       alt={alt || ""}
       style={style}
       loading="lazy"

@@ -65,7 +65,7 @@ export default function Access() {
             <p>
               <a href="../project">企画一覧はこちらから</a>
             </p>
-            <ContentImage img="/62nd/img/map.webp" alt="エリア" />
+            <ContentImage src="/62nd/img/map.webp" alt="エリア" />
           </ContentBox>
           <Animation>
             <p style={{ textAlign: "right" }}>

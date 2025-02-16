@@ -63,7 +63,7 @@ export default function Faq() {
             <p>
               <a href="../project">企画一覧はこちらから</a>
             </p>
-            <ContentImage img="/62nd/img/map.webp" alt="エリア" />
+            <ContentImage src="/62nd/img/map.webp" alt="エリア" />
           </ContentBox>
         </SectionBody>
         <SectionBody>
@@ -74,7 +74,6 @@ export default function Faq() {
           </ContentBox>
           <ContentBox title={"企画一覧/タイムテーブル"}>
             <p>
-              {" "}
               <a href="../project" aria-label="企画一覧を開く">
                 企画一覧
               </a>{" "}
@@ -126,7 +125,7 @@ export default function Faq() {
           </ContentBox>
           <ContentBox title={"多目的トイレ"}>
             以下の会場地図に多目的トイレの位置を掲載しております。なお、このマップは当日頒布する工大祭パンフレットにも掲載されております。
-            <ContentImage img="/62nd/img/map.webp" alt="マップ" />
+            <ContentImage src="/62nd/img/map.webp" alt="マップ" />
           </ContentBox>
           <ContentBox title={"車いす貸し出し"}>
             インフォメーションにて車いすの貸し出しを行っております。ただし、数に限りがございます。貸し出しできない場合がございますので、あらかじめご了承ください。

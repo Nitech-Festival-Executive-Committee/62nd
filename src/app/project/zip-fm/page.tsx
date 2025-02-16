@@ -24,7 +24,7 @@ export default function ZipFM() {
         <SectionBody className={styles.zipFMSectionBody}>
           <ContentBox title={"Hillary"}>
             <ContentImage
-              img={"/62nd/project/zip-fm/Hillary.webp"}
+              src={"/62nd/project/zip-fm/Hillary.webp"}
               alt={"Hillary"}
             />
             <ul>
@@ -45,7 +45,7 @@ export default function ZipFM() {
         <SectionBody className={styles.zipFMSectionBody}>
           <ContentBox title={"まるり"}>
             <ContentImage
-              img={"/62nd/project/zip-fm/Maruri.webp"}
+              src={"/62nd/project/zip-fm/Maruri.webp"}
               alt={"まるり"}
             />
             <ul>
@@ -67,7 +67,7 @@ export default function ZipFM() {
         <SectionBody className={styles.zipFMSectionBody}>
           <ContentBox title={"中川大輔"}>
             <ContentImage
-              img={"/62nd/project/zip-fm/Nakagawa.webp"}
+              src={"/62nd/project/zip-fm/Nakagawa.webp"}
               alt={"中川大輔"}
             />
             <ul>

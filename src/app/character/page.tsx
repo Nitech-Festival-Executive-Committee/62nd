@@ -20,7 +20,7 @@ export default function Character() {
           <ContentTitle title="古墳マン" size={2} />
           <ContentBox title={"落単古墳マンとは?"}>
             <ContentImage
-              img="/62nd/character/img/kohunman1.webp"
+              src="/62nd/character/img/kohunman1.webp"
               decorated={false}
             ></ContentImage>
             <p>
@@ -50,7 +50,7 @@ export default function Character() {
               名工大の一本松古墳に登ると落単するという噂から、「落単古墳マン」が誕生したよ!
               <br />
             </p>
-            <ContentImage img="/62nd/character/img/kohunman2.webp"></ContentImage>
+            <ContentImage src="/62nd/character/img/kohunman2.webp"></ContentImage>
             <ContentBox title={"自己紹介"}>
               <p>
                 僕は落単古墳マン!!
@@ -85,7 +85,7 @@ export default function Character() {
           <ContentTitle title="ハニワくん" size={2} />
           <ContentBox title={"ハニワくんとは?"}>
             <ContentImage
-              img="/62nd/character/img/haniwakun1.webp"
+              src="/62nd/character/img/haniwakun1.webp"
               decorated={false}
             ></ContentImage>
             <p>工大祭の公式マスコットキャラクター「ハニワくん」</p>
@@ -106,14 +106,14 @@ export default function Character() {
               <br />
               ハニワくんはとても頭が良く、古墳マンに勉強も教えているが、「ハニハニ」しか話せないので、英語の授業だけ落単している。
             </p>
-            <ContentImage img="/62nd/character/img/haniwakun2.webp"></ContentImage>
+            <ContentImage src="/62nd/character/img/haniwakun2.webp"></ContentImage>
           </ContentBox>
         </SectionBody>
         <SectionBody>
           <ContentTitle title="たまごちゃん" size={2} />
           <ContentBox title={"2号館たまごちゃんとは?"}>
             <ContentImage
-              img="/62nd/character/img/tamagochan1.webp"
+              src="/62nd/character/img/tamagochan1.webp"
               decorated={false}
             ></ContentImage>
             <p>
@@ -134,7 +134,7 @@ export default function Character() {
               <br />
               身長7m。
             </p>
-            <ContentImage img="/62nd/character/img/tamagochan2.webp"></ContentImage>
+            <ContentImage src="/62nd/character/img/tamagochan2.webp"></ContentImage>
           </ContentBox>
 
           <ContentTitle title="LINEスタンプ" size={2} />

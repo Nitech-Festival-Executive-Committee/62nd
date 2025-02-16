@@ -11,7 +11,7 @@ export default function BrochureImage({ img, alt }: BrochureImageProps) {
   return (
     <Animation>
       <div className={styles.brochureImg}>
-        <DecoratedImage img={img} alt={alt} />
+        <DecoratedImage src={img} alt={alt} />
       </div>
     </Animation>
   );
