@@ -1,6 +1,7 @@
 import styles from "./ContentTitle.module.scss";
 import { AnimationType } from "@/types/types";
 import Animation from "@/components/Animation/Animation";
+import { JSX } from "react";
 
 interface ContentTitleProps {
   title: string;

@@ -21,5 +21,3 @@ export const timetableData: ProjectData = {
     brochurePath: "62nd/timetable/timetable.webp",
   },
 };
-
-// Swipeでタイムテーブルのページへのリンク用のスライド
