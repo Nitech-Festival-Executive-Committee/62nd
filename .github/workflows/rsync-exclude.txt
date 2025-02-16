@@ -16,3 +16,4 @@ sitemap.xml
 browserconfig.xml
 jimu
 13.03.18backup
+.htaccess
