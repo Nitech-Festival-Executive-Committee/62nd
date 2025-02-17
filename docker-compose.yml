@@ -1,0 +1,10 @@
+services:
+  apache:
+    image: httpd:latest
+    container_name: test-apache
+    ports:
+      - "8080:80"
+    volumes:
+      - ./apache:/usr/local/apache2/htdocs/
+    # Apacheの設定ファイルを変更したいならここで指定
+    # - ./my-httpd.conf:/usr/local/apache2/conf/httpd.conf
