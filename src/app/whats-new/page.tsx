@@ -112,7 +112,6 @@ export default function Faq() {
             }
             link={"https://github.com/MurakawaTakuya"}
             linkText={"GitHub"}
-            underText={"214 commits"}
             flexButton
           />
           <WhatsNewCard
@@ -120,7 +119,6 @@ export default function Faq() {
             link={"https://github.com/senntou"}
             text={"エンジニア協力"}
             linkText={"GitHub"}
-            underText={"71 commits"}
             flexButton
           />
           <WhatsNewCard
@@ -128,7 +126,6 @@ export default function Faq() {
             link={"https://github.com/ViniciusBrJp"}
             text={"エンジニア協力"}
             linkText={"GitHub"}
-            underText={"17 commits"}
             flexButton
           />
           <WhatsNewCard
@@ -140,12 +137,10 @@ export default function Faq() {
                 第59・60・61回広報局
               </>
             }
-            underText={"7 commits"}
           />
           <WhatsNewCard
             title={"小林 央河"}
             text={"第60・61回広報局"}
-            underText={"3 commits"}
           />
         </SectionBody>
         <SectionBody>
